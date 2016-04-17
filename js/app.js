@@ -19,7 +19,11 @@ $(document).ready(function() {
   //-----------------------------------------------
   //   Add Link
   //-----------------------------------------------
+  $('.js-add-link').on('click', function(event) {
+    event.preventDefault();
+    $('.js-form').toggleClass('is-visible');
 
+  });
 
 
   //-----------------------------------------------
